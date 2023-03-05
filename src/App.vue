@@ -8,5 +8,5 @@ import { RouterView } from 'vue-router'
 
 <style lang="scss">
 // подключение глобальных стилей приложения
-@import "@/app/styles/main.scss";
+@import '@/app/styles/main.scss';
 </style>
