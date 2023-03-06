@@ -11,12 +11,14 @@ export const useUserStore = defineStore('userStore', () => {
   // -------------------------------------------------------------------
 
   // mutations
-  function addUserData({ field, value }) {
+  // добавление данных о пользователе в стейт
+  let addUserDataField = ({ field, value }) => {
     user.value[field] = value
   }
   // -------------------------------------------------------------------
 
   // actions
 
-  return { user, addUserData }
+  // -------------------------------------------------------------------
+  return { user, addUserDataField }
 })
